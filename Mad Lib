@@ -1,0 +1,15 @@
+/*
+ *  UCF COP3330 Fall 2021 Assignment 1 Solution
+ *  Copyright 2021 Abigayle_Gibbons
+ */
+
+ class MadLib {
+     public static void main(String[] args){
+         var noun = System.console().readLine("Enter a noun: ");
+         var verb = System.console().readLine("Enter a verb: ");
+         var adjective = System.console().readLine("Enter an adjective: ");
+         var adverb = System.console().readLine("Enter an adverb: ");
+
+         System.out.print("Do you %s your %s %s %s? That's hilarious!%n", verb, adjective, noun, adverb);
+     }
+ }
